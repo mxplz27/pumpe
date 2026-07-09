@@ -1933,3 +1933,353 @@ color:#5B4A4A;
 line-height:1.8;
 
 }
+/* =====================================
+   RESPONSIVE DESIGN
+   COMPUTADOR - TABLET - CELULAR
+===================================== */
+
+
+/* TABLETS */
+@media (max-width: 900px){
+
+
+    .contenedor-bts,
+    .final-card,
+    .carta{
+
+        width:90%;
+
+        padding:40px 30px;
+
+    }
+
+
+
+    .contenedor-bts h1,
+    .final-card h1{
+
+        font-size:45px;
+
+    }
+
+
+
+    .carta h1{
+
+        font-size:45px;
+
+    }
+
+
+
+    .contenido-carta{
+
+        font-size:25px;
+
+    }
+
+
+
+    .player{
+
+        width:250px;
+
+        right:15px;
+
+        top:15px;
+
+    }
+
+
+
+    .foto-box img{
+
+        width:280px;
+
+        height:280px;
+
+    }
+
+
+}
+
+
+
+
+/* CELULARES */
+@media (max-width:600px){
+
+
+    body{
+
+        overflow-x:hidden;
+
+    }
+
+
+
+    /* CARTAS GENERALES */
+
+
+    .carta,
+    .final-card,
+    .contenedor-bts{
+
+
+        width:95%;
+
+        padding:25px 20px;
+
+        border-radius:25px;
+
+
+    }
+
+
+
+
+    /* TITULOS */
+
+
+    .carta h1,
+    .final-card h1,
+    .contenedor-bts h1{
+
+
+        font-size:38px;
+
+    }
+
+
+
+
+    .contenedor-bts h3,
+    .final-card h3{
+
+
+        font-size:35px;
+
+    }
+
+
+
+
+    /* TEXTOS */
+
+
+    .contenido-carta{
+
+        font-size:22px;
+
+        line-height:1.7;
+
+    }
+
+
+
+    .mensaje,
+    .frase{
+
+        font-size:16px;
+
+    }
+
+
+
+
+    /* SOBRE */
+
+
+    .sobre{
+
+        width:260px;
+
+        height:180px;
+
+    }
+
+
+
+
+    .sobre h2{
+
+        font-size:35px;
+
+    }
+
+
+
+
+    /* REPRODUCTOR */
+
+
+    .player,
+    .player-final{
+
+
+        position:relative;
+
+        top:auto;
+
+        right:auto;
+
+        width:90%;
+
+        margin:20px auto;
+
+
+    }
+
+
+
+
+    .player-info h4{
+
+        font-size:15px;
+
+    }
+
+
+
+
+    /* CARRUSEL */
+
+
+    .carrusel{
+
+
+        gap:10px;
+
+    }
+
+
+
+
+    .foto-box{
+
+        padding:12px;
+
+    }
+
+
+
+    .foto-box img{
+
+
+        width:220px;
+
+        height:220px;
+
+
+    }
+
+
+
+
+    .carrusel button{
+
+
+        width:40px;
+
+        height:40px;
+
+        font-size:20px;
+
+
+    }
+
+
+
+
+
+    /* NAVEGACION */
+
+
+    .navegacion{
+
+
+        flex-direction:column;
+
+        gap:15px;
+
+        margin-top:30px;
+
+
+    }
+
+
+
+    .navegacion a{
+
+
+        width:80%;
+
+        text-align:center;
+
+
+    }
+
+
+
+
+
+}
+
+
+
+
+/* CELULARES MUY PEQUEÑOS */
+
+@media (max-width:380px){
+
+
+
+    .carta,
+    .final-card,
+    .contenedor-bts{
+
+
+        padding:20px 15px;
+
+
+    }
+
+
+
+
+    .contenido-carta{
+
+
+        font-size:20px;
+
+
+    }
+
+
+
+
+    .foto-box img{
+
+
+        width:180px;
+
+        height:180px;
+
+
+    }
+
+
+
+
+    .carta h1,
+    .final-card h1{
+
+
+        font-size:32px;
+
+
+    }
+
+
+
+}
